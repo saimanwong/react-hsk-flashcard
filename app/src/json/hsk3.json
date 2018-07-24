@@ -76,7 +76,7 @@
     "simChar" : "办法",
     "traChar" : "辦法",
     "pinyin" : "ban4 fa3",
-    "english" : "method",    
+    "english" : "method",
     "type" : "noun"
   },
   {
@@ -1237,7 +1237,7 @@
     "traChar" : "輛",
     "pinyin" : "liang4",
     "english" : "measure word for cars",
-      "type" : "noun (measure word)"
+    "type" : "noun (measure word)"
   },
   {
     "id" : 156,
@@ -1852,8 +1852,8 @@
     "simChar" : "位",
     "traChar" : "位",
     "pinyin" : "wei4",
-    "english" : "measure word for people",    
-      "type" : "noun (measure word)"
+    "english" : "measure word for people",
+    "type" : "noun (measure word)"
   },
   {
     "id" : 231,
