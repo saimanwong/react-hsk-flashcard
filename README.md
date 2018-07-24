@@ -2,7 +2,7 @@
 
 Paper, pen and web app ? learn Chinese : procrastination
 
-DEMO TBA
+[DEMO](https://saimanwong.github.io/react-hsk-flashcard)
 
 ## Getting Started
 
