@@ -1,0 +1,1202 @@
+[
+  {
+    "id" : 1,
+    "simChar" : "吧",
+    "traChar" : "吧",
+    "pinyin" : "ba5",
+    "english" : "(suggestion)",
+    "type" : "auxiliary"
+  },
+  {
+    "id" : 2,
+    "simChar" : "白",
+    "traChar" : "白",
+    "pinyin" : "bai2",
+    "english" : "white",
+    "type" : "adjective"
+  },
+  {
+    "id" : 3,
+    "simChar" : "百",
+    "traChar" : "百",
+    "pinyin" : "bai3",
+    "english" : "hundred",
+    "type" : "numeral"
+  },
+  {
+    "id" : 4,
+    "simChar" : "帮助",
+    "traChar" : "幫助",
+    "pinyin" : "bang1zhu4",
+    "english" : "to help",
+    "type" : "verb"
+  },
+  {
+    "id" : 5,
+    "simChar" : "比",
+    "traChar" : "比",
+    "pinyin" : "bi3",
+    "english" : "to compare with",
+    "type" : "preposition"
+  },
+  {
+    "id" : 6,
+    "simChar" : "别",
+    "traChar" : "別",
+    "pinyin" : "bie2",
+    "english" : "do not",
+    "type" : "adverb"
+  },
+  {
+    "id" : 7,
+    "simChar" : "长",
+    "traChar" : "長",
+    "pinyin" : "chang2",
+    "english" : "long",
+    "type" : "adjective"
+  },
+  {
+    "id" : 8,
+    "simChar" : "唱歌",
+    "traChar" : "唱歌",
+    "pinyin" : "chang4ge1",
+    "english" : "to sing",
+    "type" : "verb"
+  },
+  {
+    "id" : 9,
+    "simChar" : "出",
+    "traChar" : "出",
+    "pinyin" : "chu1",
+    "english" : "to go out",
+    "type" : "verb"
+  },
+  {
+    "id" : 10,
+    "simChar" : "穿",
+    "traChar" : "穿",
+    "pinyin" : "chuan1",
+    "english" : "to wear",
+    "type" : "verb"
+  },
+  {
+    "id" : 11,
+    "simChar" : "船",
+    "traChar" : "船",
+    "pinyin" : "chuan2",
+    "english" : "boat",
+    "type" : "noun"
+  },
+  {
+    "id" : 12,
+    "simChar" : "次",
+    "traChar" : "次",
+    "pinyin" : "ci4",
+    "english" : "time",
+    "type" : "classifier"
+  },
+  {
+    "id" : 13,
+    "simChar" : "从",
+    "traChar" : "從",
+    "pinyin" : "cong2",
+    "english" : "from",
+    "type" : "preposition"
+  },
+  {
+    "id" : 14,
+    "simChar" : "错",
+    "traChar" : "錯",
+    "pinyin" : "cuo4",
+    "english" : "wrong",
+    "type" : "adjective"
+  },
+  {
+    "id" : 15,
+    "simChar" : "打篮球",
+    "traChar" : "打籃球",
+    "pinyin" : "da3lan2qiu2",
+    "english" : "to play basketball",
+    "type" : "phrase"
+  },
+  {
+    "id" : 16,
+    "simChar" : "大家",
+    "traChar" : "大家",
+    "pinyin" : "da4jia1",
+    "english" : "everyone",
+    "type" : "pronoun"
+  },
+  {
+    "id" : 17,
+    "simChar" : "但是",
+    "traChar" : "但是",
+    "pinyin" : "dan4shi4",
+    "english" : "but",
+    "type" : "conjunction"
+  },
+  {
+    "id" : 18,
+    "simChar" : "到",
+    "traChar" : "到",
+    "pinyin" : "dao4",
+    "english" : "to arrive",
+    "type" : "verb"
+  },
+  {
+    "id" : 19,
+    "simChar" : "地",
+    "traChar" : "地",
+    "pinyin" : "de5",
+    "english" : "(adverbial particle)",
+    "type" : "auxiliary"
+  },
+  {
+    "id" : 20,
+    "simChar" : "得",
+    "traChar" : "得",
+    "pinyin" : "de5",
+    "english" : "(adverbial particle)",
+    "type" : "auxiliary"
+  },
+  {
+    "id" : 21,
+    "simChar" : "等",
+    "traChar" : "等",
+    "pinyin" : "deng3",
+    "english" : "to wait",
+    "type" : "verb"
+  },
+  {
+    "id" : 22,
+    "simChar" : "弟弟",
+    "traChar" : "弟弟",
+    "pinyin" : "di4di5",
+    "english" : "younger brother",
+    "type" : "noun"
+  },
+  {
+    "id" : 23,
+    "simChar" : "第一",
+    "traChar" : "第一",
+    "pinyin" : "di4yi1",
+    "english" : "first",
+    "type" : "numeral"
+  },
+  {
+    "id" : 24,
+    "simChar" : "对",
+    "traChar" : "對",
+    "pinyin" : "dui4",
+    "english" : "right",
+    "type" : "adjective"
+  },
+  {
+    "id" : 25,
+    "simChar" : "对",
+    "traChar" : "對",
+    "pinyin" : "dui4",
+    "english" : "towards",
+    "type" : "preposition"
+  },
+  {
+    "id" : 26,
+    "simChar" : "房间",
+    "traChar" : "房間",
+    "pinyin" : "fang2jian1",
+    "english" : "room",
+    "type" : "noun"
+  },
+  {
+    "id" : 27,
+    "simChar" : "非常",
+    "traChar" : "非常",
+    "pinyin" : "fei1chang2",
+    "english" : "very",
+    "type" : "adverb"
+  },
+  {
+    "id" : 28,
+    "simChar" : "分钟",
+    "traChar" : "分鐘",
+    "pinyin" : "fen1zhong1",
+    "english" : "minute",
+    "type" : "noun"
+  },
+  {
+    "id" : 29,
+    "simChar" : "服务员",
+    "traChar" : "服務員",
+    "pinyin" : "fu2wu4yuan2",
+    "english" : "waiter",
+    "type" : "noun"
+  },
+  {
+    "id" : 30,
+    "simChar" : "高",
+    "traChar" : "高",
+    "pinyin" : "gao1",
+    "english" : "tall",
+    "type" : "adjective"
+  },
+  {
+    "id" : 31,
+    "simChar" : "告诉",
+    "traChar" : "告訴",
+    "pinyin" : "gao4su5",
+    "english" : "to tell",
+    "type" : "verb"
+  },
+  {
+    "id" : 32,
+    "simChar" : "哥哥",
+    "traChar" : "哥哥",
+    "pinyin" : "ge1ge5",
+    "english" : "older brother",
+    "type" : "noun"
+  },
+  {
+    "id" : 33,
+    "simChar" : "给",
+    "traChar" : "給",
+    "pinyin" : "gei3",
+    "english" : "to give",
+    "type" : "verb"
+  },
+  {
+    "id" : 34,
+    "simChar" : "公共汽车",
+    "traChar" : "公共汽車",
+    "pinyin" : "gong1gong4qi4che1",
+    "english" : "bus",
+    "type" : "noun"
+  },
+  {
+    "id" : 35,
+    "simChar" : "公斤",
+    "traChar" : "公斤",
+    "pinyin" : "gong1jin1",
+    "english" : "kilogram",
+    "type" : "classifier"
+  },
+  {
+    "id" : 36,
+    "simChar" : "公司",
+    "traChar" : "公司",
+    "pinyin" : "gong1si1",
+    "english" : "company",
+    "type" : "noun"
+  },
+  {
+    "id" : 37,
+    "simChar" : "贵",
+    "traChar" : "貴",
+    "pinyin" : "gui4",
+    "english" : "expensive",
+    "type" : "adjective"
+  },
+  {
+    "id" : 38,
+    "simChar" : "过",
+    "traChar" : "過",
+    "pinyin" : "guo4",
+    "english" : "(perfect tense)",
+    "type" : "auxiliary"
+  },
+  {
+    "id" : 39,
+    "simChar" : "还",
+    "traChar" : "還",
+    "pinyin" : "hai2",
+    "english" : "still",
+    "type" : "adverb"
+  },
+  {
+    "id" : 40,
+    "simChar" : "孩子",
+    "traChar" : "孩子",
+    "pinyin" : "hai2zi5",
+    "english" : "child",
+    "type" : "noun"
+  },
+  {
+    "id" : 41,
+    "simChar" : "好吃",
+    "traChar" : "好吃",
+    "pinyin" : "hao3chi1",
+    "english" : "delicious",
+    "type" : "adjective"
+  },
+  {
+    "id" : 42,
+    "simChar" : "号",
+    "traChar" : "號",
+    "pinyin" : "hao4",
+    "english" : "number",
+    "type" : "noun"
+  },
+  {
+    "id" : 43,
+    "simChar" : "黑",
+    "traChar" : "黑",
+    "pinyin" : "hei1",
+    "english" : "black",
+    "type" : "adjective"
+  },
+  {
+    "id" : 44,
+    "simChar" : "红",
+    "traChar" : "紅",
+    "pinyin" : "hong2",
+    "english" : "red",
+    "type" : "adjective"
+  },
+  {
+    "id" : 45,
+    "simChar" : "欢迎",
+    "traChar" : "歡迎",
+    "pinyin" : "huan1ying2",
+    "english" : "to welcome",
+    "type" : "verb"
+  },
+  {
+    "id" : 46,
+    "simChar" : "回答",
+    "traChar" : "回答",
+    "pinyin" : "hui2da2",
+    "english" : "to answer",
+    "type" : "verb"
+  },
+  {
+    "id" : 47,
+    "simChar" : "机场",
+    "traChar" : "機場",
+    "pinyin" : "ji1chang3",
+    "english" : "airport",
+    "type" : "noun"
+  },
+  {
+    "id" : 48,
+    "simChar" : "鸡蛋",
+    "traChar" : "雞蛋",
+    "pinyin" : "ji1dan4",
+    "english" : "egg",
+    "type" : "noun"
+  },
+  {
+    "id" : 49,
+    "simChar" : "件",
+    "traChar" : "件",
+    "pinyin" : "jian4",
+    "english" : "measure word for clothing or matters",
+    "type" : "classifier"
+  },
+  {
+    "id" : 50,
+    "simChar" : "教室",
+    "traChar" : "教室",
+    "pinyin" : "jiao4shi4",
+    "english" : "classroom",
+    "type" : "noun"
+  },
+  {
+    "id" : 51,
+    "simChar" : "姐姐",
+    "traChar" : "姐姐",
+    "pinyin" : "jie3jie5",
+    "english" : "older sister",
+    "type" : "noun"
+  },
+  {
+    "id" : 52,
+    "simChar" : "介绍",
+    "traChar" : "介紹",
+    "pinyin" : "jie4shao4",
+    "english" : "to introduce",
+    "type" : "verb"
+  },
+  {
+    "id" : 53,
+    "simChar" : "进",
+    "traChar" : "進",
+    "pinyin" : "jin4",
+    "english" : "to enter",
+    "type" : "verb"
+  },
+  {
+    "id" : 54,
+    "simChar" : "近",
+    "traChar" : "近",
+    "pinyin" : "jin4",
+    "english" : "close",
+    "type" : "adjective"
+  },
+  {
+    "id" : 55,
+    "simChar" : "就",
+    "traChar" : "就",
+    "pinyin" : "jiu4",
+    "english" : "only",
+    "type" : "adverb"
+  },
+  {
+    "id" : 56,
+    "simChar" : "觉得",
+    "traChar" : "覺得",
+    "pinyin" : "jue2de5",
+    "english" : "to think",
+    "type" : "verb"
+  },
+  {
+    "id" : 57,
+    "simChar" : "咖啡",
+    "traChar" : "咖啡",
+    "pinyin" : "ka1fei1",
+    "english" : "coffee",
+    "type" : "noun"
+  },
+  {
+    "id" : 58,
+    "simChar" : "开始",
+    "traChar" : "開始",
+    "pinyin" : "kai1shi3",
+    "english" : "to begin",
+    "type" : "verb"
+  },
+  {
+    "id" : 59,
+    "simChar" : "考试",
+    "traChar" : "考試",
+    "pinyin" : "kao3shi4",
+    "english" : "exam",
+    "type" : "noun"
+  },
+  {
+    "id" : 60,
+    "simChar" : "可能",
+    "traChar" : "可能",
+    "pinyin" : "ke3neng2",
+    "english" : "to be possible",
+    "type" : "verb"
+  },
+  {
+    "id" : 61,
+    "simChar" : "可以",
+    "traChar" : "可以",
+    "pinyin" : "ke3yi3",
+    "english" : "can",
+    "type" : "verb"
+  },
+  {
+    "id" : 62,
+    "simChar" : "课",
+    "traChar" : "課",
+    "pinyin" : "ke4",
+    "english" : "lesson",
+    "type" : "noun"
+  },
+  {
+    "id" : 63,
+    "simChar" : "快",
+    "traChar" : "快",
+    "pinyin" : "kuai4",
+    "english" : "quick",
+    "type" : "adjective"
+  },
+  {
+    "id" : 64,
+    "simChar" : "快乐",
+    "traChar" : "快樂",
+    "pinyin" : "kuai4le4",
+    "english" : "happy",
+    "type" : "adjective"
+  },
+  {
+    "id" : 65,
+    "simChar" : "累",
+    "traChar" : "累",
+    "pinyin" : "lei4",
+    "english" : "tired",
+    "type" : "adjective"
+  },
+  {
+    "id" : 66,
+    "simChar" : "离",
+    "traChar" : "離",
+    "pinyin" : "li2",
+    "english" : "from",
+    "type" : "preposition"
+  },
+  {
+    "id" : 67,
+    "simChar" : "两",
+    "traChar" : "兩",
+    "pinyin" : "liang3",
+    "english" : "two",
+    "type" : "numeral"
+  },
+  {
+    "id" : 68,
+    "simChar" : "路",
+    "traChar" : "路",
+    "pinyin" : "lu4",
+    "english" : "road",
+    "type" : "noun"
+  },
+  {
+    "id" : 69,
+    "simChar" : "旅游",
+    "traChar" : "旅遊",
+    "pinyin" : "lv3you2",
+    "english" : "to travel",
+    "type" : "verb"
+  },
+  {
+    "id" : 70,
+    "simChar" : "慢",
+    "traChar" : "慢",
+    "pinyin" : "man4",
+    "english" : "slow",
+    "type" : "adjective"
+  },
+  {
+    "id" : 71,
+    "simChar" : "忙",
+    "traChar" : "忙",
+    "pinyin" : "mang2",
+    "english" : "busy",
+    "type" : "adjective"
+  },
+  {
+    "id" : 72,
+    "simChar" : "每",
+    "traChar" : "每",
+    "pinyin" : "mei3",
+    "english" : "every",
+    "type" : "pronoun"
+  },
+  {
+    "id" : 73,
+    "simChar" : "妹妹",
+    "traChar" : "妹妹",
+    "pinyin" : "mei4mei5",
+    "english" : "younger sister",
+    "type" : "noun"
+  },
+  {
+    "id" : 74,
+    "simChar" : "男人",
+    "traChar" : "男人",
+    "pinyin" : "nan2ren2",
+    "english" : "man",
+    "type" : "noun"
+  },
+  {
+    "id" : 75,
+    "simChar" : "您",
+    "traChar" : "您",
+    "pinyin" : "nin2",
+    "english" : "you",
+    "type" : "pronoun"
+  },
+  {
+    "id" : 76,
+    "simChar" : "牛奶",
+    "traChar" : "牛奶",
+    "pinyin" : "niu2nai3",
+    "english" : "milk",
+    "type" : "noun"
+  },
+  {
+    "id" : 77,
+    "simChar" : "女人",
+    "traChar" : "女人",
+    "pinyin" : "nv3ren2",
+    "english" : "woman",
+    "type" : "noun"
+  },
+  {
+    "id" : 78,
+    "simChar" : "旁边",
+    "traChar" : "旁邊",
+    "pinyin" : "pang2bian1",
+    "english" : "side",
+    "type" : "noun"
+  },
+  {
+    "id" : 79,
+    "simChar" : "跑步",
+    "traChar" : "跑步",
+    "pinyin" : "pao3bu4",
+    "english" : "to run",
+    "type" : "verb"
+  },
+  {
+    "id" : 80,
+    "simChar" : "便宜",
+    "traChar" : "便宜",
+    "pinyin" : "pian2yi5",
+    "english" : "cheap",
+    "type" : "adjective"
+  },
+  {
+    "id" : 81,
+    "simChar" : "票",
+    "traChar" : "票",
+    "pinyin" : "piao4",
+    "english" : "ticket",
+    "type" : "noun"
+  },
+  {
+    "id" : 82,
+    "simChar" : "漂亮",
+    "traChar" : "漂亮",
+    "pinyin" : "piao4liang5",
+    "english" : "beautiful",
+    "type" : "adjective"
+  },
+  {
+    "id" : 83,
+    "simChar" : "妻子",
+    "traChar" : "妻子",
+    "pinyin" : "qi1zi5",
+    "english" : "wife",
+    "type" : "noun"
+  },
+  {
+    "id" : 84,
+    "simChar" : "起床",
+    "traChar" : "起床",
+    "pinyin" : "qi3chuang2",
+    "english" : "to get up",
+    "type" : "verb"
+  },
+  {
+    "id" : 85,
+    "simChar" : "千",
+    "traChar" : "千",
+    "pinyin" : "qian1",
+    "english" : "thousand",
+    "type" : "numeral"
+  },
+  {
+    "id" : 86,
+    "simChar" : "晴",
+    "traChar" : "晴",
+    "pinyin" : "qing2",
+    "english" : "sunny",
+    "type" : "adjective"
+  },
+  {
+    "id" : 87,
+    "simChar" : "去年",
+    "traChar" : "去年",
+    "pinyin" : "qu4nian2",
+    "english" : "last year",
+    "type" : "noun"
+  },
+  {
+    "id" : 88,
+    "simChar" : "让",
+    "traChar" : "讓",
+    "pinyin" : "rang4",
+    "english" : "to let",
+    "type" : "verb"
+  },
+  {
+    "id" : 89,
+    "simChar" : "上班",
+    "traChar" : "上班",
+    "pinyin" : "shang4ban1",
+    "english" : "to go to work",
+    "type" : "verb"
+  },
+  {
+    "id" : 90,
+    "simChar" : "身体",
+    "traChar" : "身體",
+    "pinyin" : "shen1ti3",
+    "english" : "body, health",
+    "type" : "noun"
+  },
+  {
+    "id" : 91,
+    "simChar" : "生病",
+    "traChar" : "生病",
+    "pinyin" : "sheng1bing4",
+    "english" : "to get sick",
+    "type" : "verb"
+  },
+  {
+    "id" : 92,
+    "simChar" : "生日",
+    "traChar" : "生日",
+    "pinyin" : "sheng1ri4",
+    "english" : "birthday",
+    "type" : "noun"
+  },
+  {
+    "id" : 93,
+    "simChar" : "时间",
+    "traChar" : "時間",
+    "pinyin" : "shi2jian1",
+    "english" : "time",
+    "type" : "noun"
+  },
+  {
+    "id" : 94,
+    "simChar" : "事情",
+    "traChar" : "事情",
+    "pinyin" : "shi4qing5",
+    "english" : "matter",
+    "type" : "noun"
+  },
+  {
+    "id" : 95,
+    "simChar" : "手表",
+    "traChar" : "手錶",
+    "pinyin" : "shou3biao3",
+    "english" : "watch",
+    "type" : "noun"
+  },
+  {
+    "id" : 96,
+    "simChar" : "送",
+    "traChar" : "送",
+    "pinyin" : "song4",
+    "english" : "to give, to send",
+    "type" : "verb"
+  },
+  {
+    "id" : 97,
+    "simChar" : "所以",
+    "traChar" : "所以",
+    "pinyin" : "suo3yi3",
+    "english" : "so",
+    "type" : "conjunction"
+  },
+  {
+    "id" : 98,
+    "simChar" : "它",
+    "traChar" : "它",
+    "pinyin" : "ta1",
+    "english" : "it",
+    "type" : "pronoun"
+  },
+  {
+    "id" : 99,
+    "simChar" : "踢足球",
+    "traChar" : "踢足球",
+    "pinyin" : "ti1zu2qiu2",
+    "english" : "to play football",
+    "type" : "verb"
+  },
+  {
+    "id" : 100,
+    "simChar" : "题",
+    "traChar" : "題",
+    "pinyin" : "ti2",
+    "english" : "question",
+    "type" : "noun"
+  },
+  {
+    "id" : 101,
+    "simChar" : "跳舞",
+    "traChar" : "跳舞",
+    "pinyin" : "tiao4wu3",
+    "english" : "to dance",
+    "type" : "verb"
+  },
+  {
+    "id" : 102,
+    "simChar" : "外",
+    "traChar" : "外",
+    "pinyin" : "wai4",
+    "english" : "outside",
+    "type" : "noun"
+  },
+  {
+    "id" : 103,
+    "simChar" : "玩",
+    "traChar" : "玩",
+    "pinyin" : "wan2",
+    "english" : "to play",
+    "type" : "verb"
+  },
+  {
+    "id" : 104,
+    "simChar" : "完",
+    "traChar" : "完",
+    "pinyin" : "wan2",
+    "english" : "to finish",
+    "type" : "verb"
+  },
+  {
+    "id" : 105,
+    "simChar" : "晚上",
+    "traChar" : "晚上",
+    "pinyin" : "wan3shang5",
+    "english" : "evening",
+    "type" : "noun"
+  },
+  {
+    "id" : 106,
+    "simChar" : "喂",
+    "traChar" : "喂",
+    "pinyin" : "wei4",
+    "english" : "hey",
+    "type" : "interjection"
+  },
+  {
+    "id" : 107,
+    "simChar" : "为什么",
+    "traChar" : "為什麼",
+    "pinyin" : "wei4shen2me5",
+    "english" : "why",
+    "type" : "pronoun"
+  },
+  {
+    "id" : 108,
+    "simChar" : "问",
+    "traChar" : "問",
+    "pinyin" : "wen4",
+    "english" : "to ask",
+    "type" : "verb"
+  },
+  {
+    "id" : 109,
+    "simChar" : "问题",
+    "traChar" : "問題",
+    "pinyin" : "wen4ti2",
+    "english" : "question",
+    "type" : "noun"
+  },
+  {
+    "id" : 110,
+    "simChar" : "西瓜",
+    "traChar" : "西瓜",
+    "pinyin" : "xi1gua1",
+    "english" : "watermelon",
+    "type" : "noun"
+  },
+  {
+    "id" : 111,
+    "simChar" : "希望",
+    "traChar" : "希望",
+    "pinyin" : "xi1wang4",
+    "english" : "to hope",
+    "type" : "verb"
+  },
+  {
+    "id" : 112,
+    "simChar" : "洗",
+    "traChar" : "洗",
+    "pinyin" : "xi3",
+    "english" : "to wash",
+    "type" : "verb"
+  },
+  {
+    "id" : 113,
+    "simChar" : "向",
+    "traChar" : "向",
+    "pinyin" : "xiang4",
+    "english" : "towards",
+    "type" : "preposition"
+  },
+  {
+    "id" : 114,
+    "simChar" : "小时",
+    "traChar" : "小時",
+    "pinyin" : "xiao3shi2",
+    "english" : "hour",
+    "type" : "noun"
+  },
+  {
+    "id" : 115,
+    "simChar" : "笑",
+    "traChar" : "笑",
+    "pinyin" : "xiao4",
+    "english" : "to smile",
+    "type" : "verb"
+  },
+  {
+    "id" : 116,
+    "simChar" : "新",
+    "traChar" : "新",
+    "pinyin" : "xin1",
+    "english" : "new",
+    "type" : "adjective"
+  },
+  {
+    "id" : 117,
+    "simChar" : "姓",
+    "traChar" : "姓",
+    "pinyin" : "xing4",
+    "english" : "family name",
+    "type" : "noun"
+  },
+  {
+    "id" : 118,
+    "simChar" : "休息",
+    "traChar" : "休息",
+    "pinyin" : "xiu1xi5",
+    "english" : "to rest",
+    "type" : "verb"
+  },
+  {
+    "id" : 119,
+    "simChar" : "雪",
+    "traChar" : "雪",
+    "pinyin" : "xue3",
+    "english" : "snow",
+    "type" : "noun"
+  },
+  {
+    "id" : 120,
+    "simChar" : "颜色",
+    "traChar" : "顏色",
+    "pinyin" : "yan2se4",
+    "english" : "color",
+    "type" : "noun"
+  },
+  {
+    "id" : 121,
+    "simChar" : "眼睛",
+    "traChar" : "眼睛",
+    "pinyin" : "yan3jing5",
+    "english" : "eye",
+    "type" : "noun"
+  },
+  {
+    "id" : 122,
+    "simChar" : "羊肉",
+    "traChar" : "羊肉",
+    "pinyin" : "yang2rou4",
+    "english" : "lamb",
+    "type" : "noun"
+  },
+  {
+    "id" : 123,
+    "simChar" : "药",
+    "traChar" : "藥",
+    "pinyin" : "yao4",
+    "english" : "medicine",
+    "type" : "noun"
+  },
+  {
+    "id" : 124,
+    "simChar" : "要",
+    "traChar" : "要",
+    "pinyin" : "yao4",
+    "english" : "to want, will",
+    "type" : "verb"
+  },
+  {
+    "id" : 125,
+    "simChar" : "也",
+    "traChar" : "也",
+    "pinyin" : "ye3",
+    "english" : "also",
+    "type" : "adverb"
+  },
+  {
+    "id" : 126,
+    "simChar" : "已经",
+    "traChar" : "已經",
+    "pinyin" : "yi3jing1",
+    "english" : "already",
+    "type" : "adverb"
+  },
+  {
+    "id" : 127,
+    "simChar" : "一起",
+    "traChar" : "一起",
+    "pinyin" : "yi1qi3",
+    "english" : "together",
+    "type" : "adverb"
+  },
+  {
+    "id" : 128,
+    "simChar" : "意思",
+    "traChar" : "意思",
+    "pinyin" : "yi4si5",
+    "english" : "meaning",
+    "type" : "noun"
+  },
+  {
+    "id" : 129,
+    "simChar" : "阴",
+    "traChar" : "陰",
+    "pinyin" : "yin1",
+    "english" : "cloudy",
+    "type" : "adjective"
+  },
+  {
+    "id" : 130,
+    "simChar" : "因为",
+    "traChar" : "因為",
+    "pinyin" : "yin1wei4",
+    "english" : "because",
+    "type" : "conjunction"
+  },
+  {
+    "id" : 131,
+    "simChar" : "游泳",
+    "traChar" : "游泳",
+    "pinyin" : "you2yong3",
+    "english" : "to swim",
+    "type" : "verb"
+  },
+  {
+    "id" : 132,
+    "simChar" : "右边",
+    "traChar" : "右邊",
+    "pinyin" : "you4bian5",
+    "english" : "right side",
+    "type" : "noun"
+  },
+  {
+    "id" : 133,
+    "simChar" : "鱼",
+    "traChar" : "魚",
+    "pinyin" : "yu2",
+    "english" : "fish",
+    "type" : "noun"
+  },
+  {
+    "id" : 134,
+    "simChar" : "元",
+    "traChar" : "元",
+    "pinyin" : "yuan2",
+    "english" : "yuan",
+    "type" : "classifier"
+  },
+  {
+    "id" : 135,
+    "simChar" : "远",
+    "traChar" : "遠",
+    "pinyin" : "yuan3",
+    "english" : "far",
+    "type" : "adjective"
+  },
+  {
+    "id" : 136,
+    "simChar" : "运动",
+    "traChar" : "運動",
+    "pinyin" : "yun4dong4",
+    "english" : "to work out",
+    "type" : "verb"
+  },
+  {
+    "id" : 137,
+    "simChar" : "再",
+    "traChar" : "再",
+    "pinyin" : "zai4",
+    "english" : "again",
+    "type" : "adverb"
+  },
+  {
+    "id" : 138,
+    "simChar" : "早上",
+    "traChar" : "早上",
+    "pinyin" : "zao3shang5",
+    "english" : "morning",
+    "type" : "noun"
+  },
+  {
+    "id" : 139,
+    "simChar" : "张",
+    "traChar" : "張",
+    "pinyin" : "zhang1",
+    "english" : "piece",
+    "type" : "classifier"
+  },
+  {
+    "id" : 140,
+    "simChar" : "丈夫",
+    "traChar" : "丈夫",
+    "pinyin" : "zhang4fu5",
+    "english" : "husband",
+    "type" : "noun"
+  },
+  {
+    "id" : 141,
+    "simChar" : "找",
+    "traChar" : "找",
+    "pinyin" : "zhao3",
+    "english" : "to look for",
+    "type" : "verb"
+  },
+  {
+    "id" : 142,
+    "simChar" : "着",
+    "traChar" : "著",
+    "pinyin" : "zhe5",
+    "english" : "(continuing tense)",
+    "type" : "auxiliary"
+  },
+  {
+    "id" : 143,
+    "simChar" : "真",
+    "traChar" : "真",
+    "pinyin" : "zhen1",
+    "english" : "really",
+    "type" : "adverb"
+  },
+  {
+    "id" : 144,
+    "simChar" : "正在",
+    "traChar" : "正在",
+    "pinyin" : "zheng4zai4",
+    "english" : "currently",
+    "type" : "adverb"
+  },
+  {
+    "id" : 145,
+    "simChar" : "知道",
+    "traChar" : "知道",
+    "pinyin" : "zhi1dao4",
+    "english" : "to know",
+    "type" : "verb"
+  },
+  {
+    "id" : 146,
+    "simChar" : "准备",
+    "traChar" : "準備",
+    "pinyin" : "zhun3bei4",
+    "english" : "to prepare",
+    "type" : "verb"
+  },
+  {
+    "id" : 147,
+    "simChar" : "自行车",
+    "traChar" : "自行車",
+    "pinyin" : "zi4xing2che1",
+    "english" : "bicycle",
+    "type" : "noun"
+  },
+  {
+    "id" : 148,
+    "simChar" : "走",
+    "traChar" : "走",
+    "pinyin" : "zou3",
+    "english" : "to walk",
+    "type" : "verb"
+  },
+  {
+    "id" : 149,
+    "simChar" : "最",
+    "traChar" : "最",
+    "pinyin" : "zui4",
+    "english" : "most",
+    "type" : "adverb"
+  },
+  {
+    "id" : 150,
+    "simChar" : "左边",
+    "traChar" : "左邊",
+    "pinyin" : "zuo3bian5",
+    "english" : "left side",
+    "type" : "noun"
+  }
+]
