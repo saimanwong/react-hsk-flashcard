@@ -26,10 +26,10 @@ class App extends Component {
         4: false,
         5: false
       },
+      totalCards: 0,
       currentHsk: {
         item: '',
-        x: '',
-        y: ''
+        x: ''
       },
       currentDeck: [],
       yes: [],
@@ -42,13 +42,13 @@ class App extends Component {
     let copy = []
     let hsk = this.state.hsk
 
-    if (hsk['1']) copy.push([...Hsk1])
-    if (hsk['2']) copy.push([...Hsk2])
-    if (hsk['3']) copy.push([...Hsk3])
-    if (hsk['4']) copy.push([...Hsk4])
-    if (hsk['5']) copy.push([...Hsk5])
+    if (hsk['1']) copy.push.apply(copy, [...Hsk1])
+    if (hsk['2']) copy.push.apply(copy, [...Hsk2])
+    if (hsk['3']) copy.push.apply(copy, [...Hsk3])
+    if (hsk['4']) copy.push.apply(copy, [...Hsk4])
+    if (hsk['5']) copy.push.apply(copy, [...Hsk5])
 
-    this.setState({currentDeck: copy})
+    this.setState({currentDeck: copy, totalCards: copy.length})
     this.randomHsk(copy)
   }
 
@@ -63,10 +63,10 @@ class App extends Component {
         4: false,
         5: false
       },
+      totalCards: 0,
       currentHsk: {
         item: '',
-        x: '',
-        y: ''
+        x: ''
       },
       currentDeck: [],
       yes: [],
@@ -91,21 +91,25 @@ class App extends Component {
     let current = nextState
     if (current.length > 0) {
       const x = Math.floor(Math.random() * (current.length))
-      const y = Math.floor(Math.random() * (current[x].length))
       this.setState({currentHsk: {
-        item: current[x][y],
-        x: x,
-        y: y
+        item: current[x],
+        x: x
       }})
     } else if (this.state.no.length > 0 || (this.state.no.length === 0 && x === 'no')) {
-      this.setState({no: []})
       let copy = [...this.state.no]
-      copy.push(this.state.currentHsk.item)
-      current.push(copy)
-      this.randomHsk(current)
+      if (x === 'no')
+        copy.push(this.state.currentHsk.item)
+      this.setState({
+        currentDeck: copy,
+        no: []
+      })
+      this.randomHsk(copy)
     } else {
       alert('empty...')
-      this.resetCollection()
+      this.setState({
+        currentHsk: ''
+      })
+      // this.resetCollection()
     }
   }
 
@@ -119,9 +123,7 @@ class App extends Component {
 
   noYes (x) {
     let copy = [...this.state.currentDeck]
-    copy[this.state.currentHsk.x].splice(this.state.currentHsk.y, 1)
-    if (copy[this.state.currentHsk.x].length === 0)
-      copy.splice(this.state.currentHsk.x, 1)
+    copy.splice(this.state.currentHsk.x, 1)
 
     this.setState({
       currentDeck: copy
@@ -141,6 +143,17 @@ class App extends Component {
 
     this.randomHsk(copy, x)
     this.setState({reveal: false})
+  }
+
+  statusBar (deck, color) {
+    return {
+      position: 'absolute',
+      bottom: 0,
+      right: 0,
+      left: 0,
+      minHeight: `${this.state[deck].length / this.state.totalCards * 100}%`,
+      backgroundColor: color
+    }
   }
 
   render() {
@@ -178,21 +191,60 @@ class App extends Component {
                   Confirm
                 </Button>
                 :
-                <div>
                   <Button onClick={this.resetCollection.bind(this)} fullWidth variant="contained" size="large">
                     Reset
                   </Button>
+            }
 
+            { this.state.locked && this.state.currentDeck.length > 0 ?
+                <Paper
+                  reveal={this.state.reveal}
+                  key={this.state.currentHsk.item.id}
+                  hsk={this.state.currentHsk.item}
+                />
+                :
+                <div style={{textAlign: 'center'}}>
                   <Paper
-                    reveal={this.state.reveal}
-                    key={this.state.currentHsk.item.id}
-                    hsk={this.state.currentHsk.item}
+                    reveal={false}
+                    key={'empty'}
+                    hsk={{english: 'Deck is empty...'}}
                   />
                 </div>
             }
 
 
             <div style={{disply: 'inline-block', position: 'absolute', left: 0, right: 0, bottom: 0}}>
+              {this.state.locked ?
+                <div>
+                  <Grid container style={{textAlign: 'center'}}>
+                    <Grid item xs={4}>
+                      {this.state.no.length}
+                    </Grid>
+                    <Grid item xs={4}>
+                      {this.state.currentDeck.length}
+                    </Grid>
+                    <Grid item xs={4}>
+                      {this.state.yes.length}
+                    </Grid>
+                  </Grid>
+
+                  <Grid container style={{minHeight: '15vh'}}>
+                    <Grid item xs={4} style={{position: 'relative'}}>
+                      <div style={this.statusBar('no', 'red')}>
+                      </div>
+                    </Grid>
+                    <Grid item xs={4} style={{position: 'relative'}}>
+                      <div style={this.statusBar('currentDeck', 'blue')}>
+                      </div>
+                    </Grid>
+                    <Grid item xs={4} style={{position: 'relative'}}>
+                      <div style={this.statusBar('yes', 'green')}>
+                      </div>
+                    </Grid>
+                  </Grid>
+                </div>
+                : ''
+              }
               { this.state.locked && !this.state.reveal ?
                 <Button
                   onClick={() => this.revealHsk()}

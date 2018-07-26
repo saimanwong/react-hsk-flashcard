@@ -37,7 +37,7 @@ $ yarn build
 - [ ] Clean up code and structure...
 - [ ] Experiment with Redux
 - [ ] Colorize characters (1 blue/sky, 2 green/growth, 3 orange, 4 red/aggressive, 5 black)
-- [ ] Information about progress (total cards, total no and yes)
+- [x] Information about progress (total cards, total no and yes)
 - [x] Stroke order
 - [ ] ``v-for="(item, index) in x"`` ? ``x.map((item, index) => { ... })``
 
