@@ -228,7 +228,7 @@ class App extends Component {
                     </Grid>
                   </Grid>
 
-                  <Grid container style={{minHeight: '15vh'}}>
+                  <Grid container style={{minHeight: '10vh'}}>
                     <Grid item xs={4} style={{position: 'relative'}}>
                       <div style={this.statusBar('no', 'red')}>
                       </div>
