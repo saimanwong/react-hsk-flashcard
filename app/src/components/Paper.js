@@ -32,7 +32,6 @@ function pinyinColorize (simChar, pinyin) {
       word += pinyin[i]
     }
   }
-  console.log(UnicodePinyin)
 
   for (let i in tones) {
     let vowel = ''
